@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 60vw 39.98vw;
+    height: 8vh;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: grey;
+}
+
+header .H1 {
+    text-align: center;
+    font-family: 'FEDERICO', sans-serif;
+    color: black;
+    position: relative;
+    top: 0.75vh;
+    font-size: 3vw;
+    right: 9vh;
+}
+
+header .H2 ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    top: 2.5vh;
+    background-color: transparent;
+}
+
+header .H2 ul li {
+    list-style: none;
+    text-align: center;
+    color: black;
+    margin: auto;
+    font-size: 1.3vw;
+    font-family: 'FEDERICO', sans-serif;
+}
+
+header .H2 ul li a:hover {
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+header .H2 ul li a {
+    text-decoration-line: none;
+    color: black;
+    transition: color 0.13s ease-in-out, font-size 0.13s ease-in-out;
+}
+
+.back {
+    background-color: black;
+    opacity: 95%;
+    height: 108vh;
+    width: 99.20vw;
+}
+
+.contain {
+    background-color: black;
+    width: 95vw;
+    height: 1vh;
+    position: relative;
+    border-radius: 1.5vh;
+    z-index: 2;
+}
+
+.cont2 {
+    width: 95vw;
+    height: 90vh;
+    box-shadow: 0px 0px 15px white;
+    position: relative;
+    top: 17vh;
+    left: 2.45vw;
+    background-color: black;
+    border-radius: 1.5vh;
+}
+
+.holdbox {
+    display: grid;
+    width: 90vw;
+    height: 56vh;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(10, 15vh);
+    grid-column: 2/5;
+    grid-row: 1/4;
+    grid-gap: 1.5vh;
+    position: relative;
+    top: 4.5vh;
+    left: 4.6vh;
+}
+
+.Box {
+    height: auto;
+    display: inline-block;
+    border-radius: 2vh;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.Box:hover {
+    opacity: 40%;
+}
+
+.game1 {
+    background-image: url('https://www.onlinegames.io/media/posts/184/responsive/Stack-Fire-Ball-Game-lg.jpg');
+    background-size: cover;
+}
+
+.game2 {
+    background-image: url('https://www.onlinegames.io/media/posts/418/responsive/Mob-City-lg.jpg');
+    background-size: cover;
+}
+
+.game3 {
+    background-image: url('https://www.onlinegames.io/media/posts/416/responsive/GTA-Simulator-lg.jpg');
+    grid-row: 1/4;
+    grid-column: 3/6;
+    background-size: cover;
+}
+
+.game4 {
+    background-image: url('https://www.onlinegames.io/media/posts/685/responsive/State-io-Wars-lg.jpg');
+    background-size: cover;
+}
+
+.game5 {
+    background-image: url('https://www.onlinegames.io/media/posts/442/responsive/8-Ball-Pool-Billiard-lg.jpg');
+    background-size: cover;
+}
+
+.game6 {
+    grid-column: 8/11;
+    background-image: url('https://www.onlinegames.io/media/posts/414/responsive/Kick-The-Dummy-Game-xs.jpg');
+    background-size: cover;
+}
+
+.game7 {
+    background-image: url('https://www.onlinegames.io/media/posts/405/responsive/Car-Football-lg.jpg');
+    background-size: cover;
+}
+
+.game8 {
+    background-image: url('https://www.onlinegames.io/media/posts/634/responsive/Rome-Simulator-2-lg.jpg');
+    background-size: cover;
+}
+
+.game9 {
+    background-image: url('https://www.onlinegames.io/media/posts/523/responsive/Moto-Trials-lg.jpg');
+    background-size: cover;
+}
+
+.game10 {
+    background-image: url('https://www.onlinegames.io/media/posts/706/responsive/Snake-Football-lg.jpg');
+    background-size: cover;
+}
+
+.game11 {
+    background-image: url('https://www.onlinegames.io/media/posts/365/responsive/Hero-Dragon-Power-Game-lg.jpg');
+    background-size: cover;
+}
+
+.game12 {
+    grid-row: 3/5;
+    background-size: contain;
+    background-image: url('https://www.onlinegames.io/media/posts/310/responsive/Masked-Special-Forces-FPS-lg.jpg');
+    grid-column: 7/9;
+}
+
+.game13 {
+    background-image: url('https://www.onlinegames.io/media/posts/854/responsive/supercardriving-2-lg.jpg');
+    background-size: cover;
+}
+
+.game14 {
+    background-image: url('https://www.onlinegames.io/media/posts/871/responsive/stickman-parkour-OG-lg.jpg');
+    background-size: cover;
+}
+
+.game15 {
+    background-image: url('https://www.onlinegames.io/media/posts/233/responsive/Stickman-Destruction-lg.jpg');
+    background-size: cover;
+}
+
+.game16 {
+    background-image: url('https://www.onlinegames.io/media/posts/870/responsive/WarStrike-Online-lg.jpg');
+    background-size: cover;
+}
+
+.game17 {
+    background-image: url('https://www.onlinegames.io/media/posts/593/responsive/Survival-Craft-Game-lg.jpg');
+    background-size: cover;
+}
+
+.game18 {
+    background-image: url('https://www.onlinegames.io/media/posts/739/responsive/Football-King-lg.jpg');
+    background-size: cover;
+}
+
+.game19 {
+    background-image: url('https://www.onlinegames.io/media/posts/857/responsive/troll-level-online-lg.jpg');
+    background-size: cover;
+}
+
+.game20 {
+    grid-column: 1/3;
+    background-image: url('https://www.onlinegames.io/media/posts/510/responsive/Geometry-Dash-FreezeNova-lg.jpg');
+    background-size: cover;
+}
+
+.game21 {
+    background-image: url('https://www.onlinegames.io/media/posts/549/responsive/Soul-Essence-Adventure-lg.jpg');
+    background-size: cover;
+}
+
+.game22 {
+    background-image: url('https://www.onlinegames.io/media/posts/712/responsive/Truck-Racing-lg.jpg');
+    background-size: cover;
+}
+
+.game23 {
+    background-image: url('https://www.onlinegames.io/media/posts/729/responsive/Drift-King-lg.jpg');
+    background-size: cover;
+}
+
+.game24 {
+    background-image: url('https://www.onlinegames.io/media/posts/322/responsive/Urban-Sniper-Game-lg.jpg');
+    background-size: cover;
+}
+
+.game25 {
+    grid-row: 4/6;
+    grid-column: 9/11;
+    background-image: url('https://www.onlinegames.io/media/posts/434/responsive/CS-Online-lg.jpg');
+    background-size: contain;
+}
+
+.game26 {
+    background-image: url('https://www.onlinegames.io/media/posts/596/responsive/Legendary-Sniper-lg.jpg');
+    background-size: cover;
+}
+
+.game27 {
+    background-image: url('https://www.onlinegames.io/media/posts/423/responsive/Guerillas-io-lg.jpg');
+    background-size: cover;
+}
+
+.game28 {
+    grid-column: 4/6;
+    background-image: url('https://www.onlinegames.io/media/posts/861/responsive/burnoutcity-lg.jpg');
+    background-size: cover;
+}
+
+.game29 {
+    background-image: url('https://www.onlinegames.io/media/posts/633/responsive/Battle-Royale-Simulator-lg.jpg');
+    background-size: cover;
+}
+
+.game30 {
+    background-image: url('https://www.onlinegames.io/media/posts/234/responsive/Armed-Forces-io-lg.jpg');
+    background-size: cover;
+}
+
+.game31 {
+    background-image: url('https://www.onlinegames.io/media/posts/451/responsive/Dark-Ninja-Hanjo-lg.jpg');
+    background-size: cover;
+}
+
+.game32 {
+    background-image: url('https://www.onlinegames.io/media/posts/509/responsive/War-of-Ships-io-lg.jpg');
+    background-size: cover;
+}
+
+.game33 {
+    background-image: url('https://www.onlinegames.io/media/posts/268/responsive/Airplane-Racer-lg.jpg');
+    background-size: cover;
+}
+
+.containplay {
+    background-color: black;
+    width: 95vw;
+    height: 1vh;
+    position: relative;
+    border-radius: 1.5vh;
+    z-index: 2;
+    display: none;
+}
+
+.notecontainer {
+    color: white;
+    background-color: black;
+    overflow:visible;
+    height: 1vh;
+    width: 1vw;
+    display: block;
+}
+
+.note {
+    position: relative;
+    top: 28vh;
+    left: 15vw;
+    width: 70vw;
+    height: 40vh;
+    background-color: black;
+    border: 12px groove white;
+    opacity: 100%;
+    z-index: 100;
+    text-align: center;
+    font-family: 'Frozito', sans-serif;
+    font-size: 6vh;
+}
+.other {
+    font-size: 4.5vh;
+    position: relative;
+    top: 6vh;
+}
+.OK {
+    height: 4.3vh;
+    width: 6vw;
+    font-family: 'Frozito', sans-serif;
+    border: 6px groove white;
+    position: relative;
+    top:5.7vh;
+    left: -0.5vw;
+    font-size: 1.7vh;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.OK:hover{
+    background-color: black;
+    color: white;
+}
+.cont2play {
+    width: 95vw;
+    height: 140vh;
+    box-shadow: 0px 0px 15px white;
+    position: relative;
+    top: 17vh;
+    left: 2.45vw;
+    background-color: black;
+    border-radius: 1.5vh;
+
+}
+
+.holdboxplay {
+    display: grid;
+    background-color: white;
+    width: 75vw;
+    height: 65vh;
+    grid-gap: 1.5vh;
+    position: relative;
+    bottom: 3vh;
+    left: 20vh;
+}
+
+.playgames {
+    background-color: black;
+}
+
+.text {
+    background-color: black;
+    height: 55vh;
+    width: 75vw;
+    position: relative;
+    left: 10.5vw;
+    display: inline-block;
+    box-shadow: 0px 0px 6px white;
+    border: 1px solid white;
+    border-radius: 3vh;
+    color: white;
+    display: grid;
+}
+
+.text .controls {
+    position: relative;
+    top: 2vh;
+    left: 1.5vw;
+    width: 72vw;
+    height: 51vh;
+}
+
+.text .disclaimer {
+    position: relative;
+    top: -49.5vh;
+    left: 48vw;
+    width: 26vw;
+    height: 52vh;
+
+}
+
+.disclaimer img {
+    height: 11vh;
+    width: 26vw;
+    position: relative;
+    top: 20.5vh;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.controls img {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    border-radius: 0.5vh;
+    transition: box-shadow 0.15 ease-in-out;
+}
+
+img:hover {
+    box-shadow: 0px 0px 15px white;
+}
+
+.goback {
+    background-color: white;
+    width: 6vw;
+    height: 5.5vh;
+    font-size: 3vh;
+    position: relative;
+    top: 7vh;
+    left: 2vw;
+    border-radius: 3vh;
+    font-family: 'FEDERICO', sans-serif;
+    box-shadow: 0px 0px 0px white;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.goback:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.changeimg{
+    display: none;
+}
+@media(orientation:portrait){
+    .change{
+        display: none;
+    }
+    .changeimg{
+        display: block;
+        height: 10vw;
+        width: 10vw;
+    }
+    img{
+        height: 54vw;
+        width: 96vw;
+        position: relative;
+        top: 33vh;
+        left: 2vw;
+    }
+    body{
+        background-color: #000;
+    }
+}
+.block {
+    border: 1px solid red;
+    background-color: white;
+    height: 3vh;
+    display: inline-block;
+    opacity: 5%;
+    transition: opacity 3s cubic-bezier(0, 0.97, 0.08, 1.09), border 3s cubic-bezier(0, 0.97, 0.08, 1.09);
+}
+
+.block:hover {
+    opacity: 100%;
+    border: 1px solid black;
+}
+
+#container {
+    background-color: #000;
+    width: 99.2vw;
+    display: grid;
+    grid-template-columns: repeat(50, auto);
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    z-index: 1;
+}
