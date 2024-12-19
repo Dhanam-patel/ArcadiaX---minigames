@@ -65,7 +65,9 @@ header .H2 ul li a {
     margin: auto;
     color: white;
     height: 1vh;
-    font: 700 normal 2.5em 'tahoma';
+    font:normal 2.5em 'tahoma';
+    font-size: 4.5vh;
+    font-weight: bold;
     text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 .gamespage{
