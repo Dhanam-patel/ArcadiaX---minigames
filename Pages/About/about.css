@@ -53,7 +53,6 @@ header .H2 ul li a {
     transition: color 0.13s ease-in-out, font-size 0.13s ease-in-out;
 }
 
-
 .contain {
     background-color: black;
     width: 95vw;
@@ -64,105 +63,62 @@ header .H2 ul li a {
 }
 
 .cont2 {
-    width: 80vw;
-    height: 70vh;
+    width: 85vw;
+    height: 80vh;
     box-shadow: 0px 0px 15px white;
     position: relative;
     top: 19vh;
-    left: 10vw;
+    left: 7vw;
     background-color: black;
     border-radius: 1.5vh;
 }
-
-.pfp {
+.pfp{
     height: 33vh;
     width: 20vw;
     display: inline-block;
     position: relative;
-    bottom: -9.5vh;
-    left: -9vw;
+    bottom: 11vh;
+    left: 4vw;
 }
-.githubimg { 
-    height: 5vh;
-    width: 3vw;
-    
-    position: relative;
-    top: 10vh;
-    left: 10vw;
-}
-.githubtext{
-    position: relative;
-    top: 6vh;
-    left: 17vw;
-}
-.linkdinimg { 
-    height: 5vh;
-    width: 3vw;
-    ;
-    position: relative;
-    top: 10vh;
-    left: 10vw;
-}
-.linkdintext{
-    position: relative;
-    top: 6vh;
-    left:17vw;
-}
-.Ximg { 
-    height: 5vh;
-    width: 3vw;
-    
-    position: relative;
-    top: 10vh;
-    left: 10vw;
-}
-.Xtext{
-    position: relative;
-    top: 6vh;
-    left: 17vw;
-}
-.instaimg { 
-    height: 5vh;
-    width: 3vw;
-    
-    position: relative;
-    top: 10vh;
-    left: 10vw;
-}
-.instatext{
-    position: relative;
-    top: 6vh;
-    left: 17vw;
-}
-img{
-    border-radius:50% ;
-    height: 100%;
-    width: 100%;
-}
-.hold{
-    position: relative;
-    top: -1vh;
-    font-family: 'Frozito', sans-serif;
+.pfp img{
+    height: 43vh;
+    width: 25vw;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    border: 1.5px solid white;
+    box-shadow: 0px 0px 10px white;
 }
 .holdbox {
     display: grid;
     width: 50vw;
-    height: 77vh;
+    height: 80vh;
     position: relative;
-    top: 1.5vh;
-    left: 1vw;
+    left: 23.6vh;
     display: inline-block;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
     color: white;
 }
-.conctext{
-    height: 4vh;
-    width: 10vw;
+.changeimg{
+    display: none;
 }
-a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
+@media(orientation:portrait){
+    .change{
+        display: none;
+    }
+    .changeimg{
+        display: block;
+        height: 10vw;
+        width: 10vw;
+    }
+    img{
+        height: 54vw;
+        width: 96vw;
+        position: relative;
+        top: 33vh;
+        left: 2vw;
+    }
+    body{
+        background-color: #000;
+    }
 }
 .block {
     border: 1px solid red;

@@ -440,7 +440,29 @@ iframe {
     height: 100%;
     border: none;
 }
-
+.changeimg{
+    display: none;
+}
+@media(orientation:portrait){
+    .change{
+        display: none;
+    }
+    .changeimg{
+        display: block;
+        height: 10vw;
+        width: 10vw;
+    }
+    img{
+        height: 54vw;
+        width: 96vw;
+        position: relative;
+        top: 33vh;
+        left: 2vw;
+    }
+    body{
+        background-color: #000;
+    }
+}
 .block {
     border: 1px solid red;
     background-color: white;

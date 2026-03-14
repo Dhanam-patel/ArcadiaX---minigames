@@ -53,6 +53,7 @@ header .H2 ul li a {
     transition: color 0.13s ease-in-out, font-size 0.13s ease-in-out;
 }
 
+
 .contain {
     background-color: black;
     width: 95vw;
@@ -63,41 +64,133 @@ header .H2 ul li a {
 }
 
 .cont2 {
-    width: 85vw;
-    height: 80vh;
+    width: 80vw;
+    height: 70vh;
     box-shadow: 0px 0px 15px white;
     position: relative;
     top: 19vh;
-    left: 7vw;
+    left: 10vw;
     background-color: black;
     border-radius: 1.5vh;
 }
-.pfp{
+
+.pfp {
     height: 33vh;
     width: 20vw;
     display: inline-block;
     position: relative;
-    bottom: 11vh;
-    left: 4vw;
+    bottom: -9.5vh;
+    left: -9vw;
 }
-.pfp img{
-    height: 43vh;
-    width: 25vw;
-    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
-    border: 1.5px solid white;
-    box-shadow: 0px 0px 10px white;
+.pfp #myVideo{
+    height: 37vh;
+    width: 35vw;
+}
+.githubimg { 
+    height: 5vh;
+    width: 3vw;
+    
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+.githubtext{
+    position: relative;
+    top: 6vh;
+    left: 17vw;
+}
+.linkdinimg { 
+    height: 5vh;
+    width: 3vw;
+    ;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+.linkdintext{
+    position: relative;
+    top: 6vh;
+    left:17vw;
+}
+.Ximg { 
+    height: 5vh;
+    width: 3vw;
+    
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+.Xtext{
+    position: relative;
+    top: 6vh;
+    left: 17vw;
+}
+.instaimg { 
+    height: 5vh;
+    width: 3vw;
+    
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+.instatext{
+    position: relative;
+    top: 6vh;
+    left: 17vw;
+}
+.hold img{
+    border-radius:50% ;
+    height: 100%;
+    width: 100%;
+}
+.hold{
+    position: relative;
+    top: -1vh;
+    font-family: 'Frozito', sans-serif;
 }
 .holdbox {
     display: grid;
     width: 50vw;
-    height: 80vh;
+    height: 77vh;
     position: relative;
-    left: 23.6vh;
+    top: 1.5vh;
+    left: 1vw;
     display: inline-block;
     font-size: 2.5vh;
     color: white;
 }
-
+.conctext{
+    height: 4vh;
+    width: 10vw;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.changeimg{
+    display: none;
+}
+@media(orientation:portrait){
+    .change{
+        display: none;
+    }
+    .changeimg{
+        display: block;
+        height: 10vw;
+        width: 10vw;
+    }
+    img{
+        height: 54vw;
+        width: 96vw;
+        position: relative;
+        top: 33vh;
+        left: 2vw;
+    }
+    body{
+        background-color: #000;
+    }
+}
 .block {
     border: 1px solid red;
     background-color: white;
