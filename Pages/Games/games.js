@@ -44,7 +44,7 @@ for (let i = 1; i <= 32; i++) {
     document.querySelector(`.game${i}`).addEventListener('click', function () {
         const controlsDiv = document.querySelector('.controls');
         if (controlsDiv) {
-            controlsDiv.innerHTML = `<img src="assets/controls img/${i}.png" alt="Controls">`;
+            controlsDiv.innerHTML = `<img src="/assets/controls img/${i}.png" alt="Controls">`;
             if (i === 1) {
                 const box = document.querySelector('.playgame');
                 box.style.display = 'block';
