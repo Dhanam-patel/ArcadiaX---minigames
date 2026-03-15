@@ -119,9 +119,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Connect with Dhanam
 
 - **GitHub**: [@Dhanam-patel](https://github.com/Dhanam-patel)
-- **LinkedIn**: [Dhanam Patel](https://www.linkedin.com/in/dhanam-patel-a7b469292)
-- **X (Twitter)**: [@00Dhanam00](https://x.com/00Dhanam00)
-- **Instagram**: [@_.rip.0](https://www.instagram.com/_.rip.0/)
+- **LinkedIn**: [Dhanam Patel](https://www.linkedin.com/in/dhanam-patel)
+- **X (Twitter)**: [@Athanox_](https://x.com/Athanox_)
 
 ---
 
